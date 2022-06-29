@@ -48,6 +48,7 @@ namespace LiquidateIt
             this.templateTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.templateTextBox.Size = new System.Drawing.Size(1427, 234);
             this.templateTextBox.TabIndex = 0;
+            this.templateTextBox.Text = "{% assign myvariable = \"tomato\" %} {{ myvariable | upcase }} ";
             // 
             // inputTextBox
             // 
@@ -60,6 +61,7 @@ namespace LiquidateIt
             this.inputTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.inputTextBox.Size = new System.Drawing.Size(1427, 234);
             this.inputTextBox.TabIndex = 1;
+            this.inputTextBox.Text = "{}";
             // 
             // outputTextBox
             // 
@@ -70,6 +72,7 @@ namespace LiquidateIt
             this.outputTextBox.Location = new System.Drawing.Point(12, 492);
             this.outputTextBox.Multiline = true;
             this.outputTextBox.Name = "outputTextBox";
+            this.outputTextBox.ReadOnly = true;
             this.outputTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.outputTextBox.Size = new System.Drawing.Size(1427, 270);
             this.outputTextBox.TabIndex = 2;
